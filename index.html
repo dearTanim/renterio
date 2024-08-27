@@ -16,6 +16,11 @@
         .font-monorope{
           font-family: "Manrope", sans-serif;
         }
+        .form{
+          background: linear-gradient(rgba(236, 233, 233, 0.5), rgba(244, 241, 246, 0.566)), url(./images/bg.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
     </style>
     <script>
       tailwind.config = {
@@ -160,10 +165,10 @@
                           </div>
                       </div>
                   </div>
-                  <div class="mt-10 lg:mt-0">
+                  <div class="mt-10 lg:mt-0 rounded-xl">
                     <img
                       src="./images/Rectangle.png"
-                      class="sm:w-full"/>
+                      class="sm:w-3/4 md:w-full object-none object-[68% 28%] rounded-xl"/>
                   </div>
                 </div>
             </div>
@@ -244,8 +249,8 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 row-span-12">
-              <div class="border px-5 py-4 rounded-lg md:flex gap-5 md:col-span-12 lg:col-span-8">
-                  <img src="./images/img1.png" alt="">
+              <div class="border px-5 py-4 rounded-lg md:flex  gap-5 md:col-span-12 lg:col-span-8">
+                  <img class="w-full md:w-1/2 lg:w-1/2" src="./images/img1.png" alt="">
                   <div>
                     <h3 class="font-semibold text-xl text-des-color mt-2">Commercial</h3>
                     <p class="text-p-color my-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
@@ -263,9 +268,9 @@
               <div class="border rounded-lg p-4 md:col-span-6 lg:col-span-3 "><img class="w-full h-full" src="./images/img3.png" alt=""></div>
 
               <div class="border px-5 py-4 rounded-lg md:flex gap-5 md:col-span-12 lg:col-span-6">
-                <img src="./images/img4.png" alt="">
+                <img class="w-full md:w-1/2 lg:w-1/2" src="./images/img4.png" alt="">
                 <div>
-                  <h3 class="font-semibold text-xl text-des-color">Commercial</h3>
+                  <h3 class="font-semibold text-xl text-des-color mt-2">Commercial</h3>
                   <p class="text-p-color my-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                   <a href="#" class="font-semibold flex  ">View Details
                     <div class="bg-second-color p-1 ml-2 rounded-full">
@@ -442,7 +447,7 @@
             </div>
           </section>
          <!-- Connect Section -->
-          <section class="border border-8 border-white bg-[url('./images/bg.jpg')] bg-no-repeat bg-cover">
+          <section class="border border-8 border-white form">
             <div class="">
               <div class="w-11/12 mx-auto mt-16 mb-8">
                 <div class="text-center">
